@@ -1,0 +1,19 @@
+{
+    "name": "GrazerCore.GameElements",
+    "rootNamespace": "GrazerCore.GameElements",
+    "references": [
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:a79aafd0e66f59b41978205ad651e9bf",
+        "GUID:9ff0bdc75a25f524cb4a5ac8b76193af",
+        "GUID:bfadf9d72b65db542833c12e63433dbb"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,17 @@
+{
+    "name": "GrazerCore.Editor",
+    "rootNamespace": "GrazerCore.Editor",
+    "references": [
+        "GUID:84d3608349c951f45972859da117398b",
+        "GUID:9ff0bdc75a25f524cb4a5ac8b76193af"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

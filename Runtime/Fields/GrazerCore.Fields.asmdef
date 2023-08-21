@@ -1,0 +1,16 @@
+{
+    "name": "GrazerCore.Fields",
+    "rootNamespace": "GrazerCore.Fields",
+    "references": [
+        "GUID:9ff0bdc75a25f524cb4a5ac8b76193af"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

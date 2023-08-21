@@ -1,0 +1,14 @@
+{
+  "name": "com.gental14.grazercore",
+  "version": "0.1.0",
+  "displayName": "GrazerCore",
+  "description": "A package include basic shump game system with my custom.",
+  "unity": "2021.3",
+  "author": {
+    "name": "Gental14",
+    "email": "louis467886@gmail.com"
+  },
+  "dependencies": {
+    "com.unity.inputsystem": "1.4.4"
+  }
+}

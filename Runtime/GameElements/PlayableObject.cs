@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 using UnityEngine.Events;
 using System.Collections;
 using System.Collections.Generic;
@@ -98,20 +97,6 @@ namespace GrazerCore.GameElements
         [SerializeField]
         protected float m_BorderCheckRight = 1;
 
-        [Header("Control")]
-        [SerializeField]
-        private InputActionReference m_MoverActionRef = null;
-        protected InputAction m_MoveAction;
-        public InputAction MoveAction { get {return m_MoveAction;} set { m_MoveAction = value; } }
-        [SerializeField]
-        private InputActionReference m_FocusModeActionRef = null;
-        protected InputAction m_FocusModeAction;
-        public InputAction FocusModeAction { get { return m_FocusModeAction; } set { m_FocusModeAction = value; } }
-        [SerializeField]
-        private InputActionReference m_FireActionRef = null;
-        protected InputAction m_FireAction;
-        public InputAction FireAction { get { return m_FireAction; } set { m_FireAction = value; } }
-
         [Header("Launcher")]
         [SerializeField]
         protected Launcher[] m_Launchers = null;
@@ -153,9 +138,6 @@ namespace GrazerCore.GameElements
         /// </summary>
         public virtual void WakeUpObject()
         {
-            m_MoveAction.Enable();
-            m_FocusModeAction.Enable();
-            m_FireAction.Enable();
             HP = MaxHP;
             GrazeCounter = 0;
             Invincible = false;
@@ -164,47 +146,11 @@ namespace GrazerCore.GameElements
 
         public virtual void SleepObject()
         {
-            m_MoveAction.Disable();
-            m_FocusModeAction.Disable();
-            m_FireAction.Disable();
             OnPlayerSleep?.Invoke();
         }
 
         public virtual void Initialization()
         {
-            //  Set action
-            MoveAction = m_MoverActionRef.action;
-            FocusModeAction = m_FocusModeActionRef.action;
-            FireAction = m_FireActionRef.action;
-
-            m_FocusModeAction.started += (ctx) => {
-                isFocusMode = true;
-            };
-            m_FocusModeAction.canceled += (ctx) => {
-                isFocusMode = false;
-            };
-            m_FireAction.started += (ctx) => {
-                var launcherCount = Launchers.Length;
-                for (int index = 0; index < launcherCount; ++index)
-                {
-                    var launcher = Launchers[index];
-                    if (launcher.IsWorking)
-                    {
-                        launcher.StartTrigger();
-                    }
-                }
-            };
-            m_FireAction.canceled += (ctx) => {
-                var launcherCount = Launchers.Length;
-                for (int index = 0; index < launcherCount; ++index)
-                {
-                    var launcher = Launchers[index];
-                    if (launcher.IsWorking)
-                    {
-                        launcher.ReleaseTrigger();
-                    }
-                }
-            };
             StateController = new StateController();
         }
 

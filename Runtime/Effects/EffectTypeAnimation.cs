@@ -11,15 +11,6 @@ namespace GrazerCore.Effects
         private string m_SFXAnimeName = "";
         private Coroutine playRoutine = null;
 
-        //  Test
-        private void Update()
-        {
-            if (Input.GetKeyUp(KeyCode.Space))
-            {
-                StartSFX();
-            }
-        }
-
         public override void StartSFX()
         {
             base.StartSFX();

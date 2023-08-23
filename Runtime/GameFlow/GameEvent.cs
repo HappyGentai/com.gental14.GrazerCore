@@ -54,12 +54,4 @@ namespace GrazerCore.GameFlow.Events
             OnEventDone?.Invoke(GameventResult.Empty);
         }
     }
-
-    public abstract class GameventResult
-    {
-        public static GameventResult Empty
-        {
-            get { return null; }
-        }
-    }
 }

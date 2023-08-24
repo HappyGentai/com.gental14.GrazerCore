@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 344b35c3f2d53ae43b33dfa2fbc20917, type: 3}
+  m_Name: GameEventSpawnEnemy
+  m_EditorClassIdentifier: 
+  m_EnemyTeamDatas:
+  - m_EnemyTeam: {fileID: 8150864726307051979, guid: 6c6a6c0ae70fcc4409348f794d402743, type: 3}
+    m_WaveWaitTime: 0
+  - m_EnemyTeam: {fileID: 4459933120320819002, guid: 92432da0be8494c4b90596a077ddf928, type: 3}
+    m_WaveWaitTime: 8
+  - m_EnemyTeam: {fileID: 7241027831082023809, guid: a0c7f30f67bc26d40b141ca9f9dd028d, type: 3}
+    m_WaveWaitTime: 2
+  - m_EnemyTeam: {fileID: 8112352868063410149, guid: f5eb27f3a11c7fb4cbd90b79ba2b1b19, type: 3}
+    m_WaveWaitTime: 5
+  - m_EnemyTeam: {fileID: 8151807398199164146, guid: cea44904987fba64099cd5c4f893ed03, type: 3}
+    m_WaveWaitTime: 6
+  - m_EnemyTeam: {fileID: 5347186509532001253, guid: 9a6336437109dca4cbd7d12381da1983, type: 3}
+    m_WaveWaitTime: 3.5
+  - m_EnemyTeam: {fileID: 1991416149411529885, guid: b3197be1658a73b43bbd4c10652c3b18, type: 3}
+    m_WaveWaitTime: 5
+  - m_EnemyTeam: {fileID: 8150864726307051979, guid: 6c6a6c0ae70fcc4409348f794d402743, type: 3}
+    m_WaveWaitTime: 3
+  - m_EnemyTeam: {fileID: 4459933120320819002, guid: 92432da0be8494c4b90596a077ddf928, type: 3}
+    m_WaveWaitTime: 8
+  - m_EnemyTeam: {fileID: 9018029639229784904, guid: 52c58997f8087b248a1000f973f5d0f8, type: 3}
+    m_WaveWaitTime: 10
+  - m_EnemyTeam: {fileID: 6746451834157038922, guid: db9f0bcca8d00f24996c46e7499876bd, type: 3}
+    m_WaveWaitTime: 10000

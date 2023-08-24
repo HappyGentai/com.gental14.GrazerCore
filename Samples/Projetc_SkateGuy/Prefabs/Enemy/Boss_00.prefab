@@ -1,0 +1,502 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1541770577611590981
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8612278569586653442}
+  - component: {fileID: 6513121786431958059}
+  m_Layer: 0
+  m_Name: Launcher_BossAttackB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8612278569586653442
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541770577611590981}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.551, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6653140102448002040}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6513121786431958059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541770577611590981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37207279e749edc4eac1e0981fbe9b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LauncherBelong: Enemy
+  m_BaseFireDirection: {x: -1, y: 0, z: 0}
+  m_FireSpots:
+  - m_FireBullet: {fileID: 1253955119864590184, guid: efa5d2cb1cf94ed468635a175b66350a, type: 3}
+    m_FirePoint: {x: 2.28, y: 1.48}
+    m_FireAngle: 190
+  - m_FireBullet: {fileID: 1253955119864590184, guid: efa5d2cb1cf94ed468635a175b66350a, type: 3}
+    m_FirePoint: {x: 2.28, y: 1.48}
+    m_FireAngle: 170
+  - m_FireBullet: {fileID: 1253955119864590184, guid: efa5d2cb1cf94ed468635a175b66350a, type: 3}
+    m_FirePoint: {x: 2.28, y: -1.48}
+    m_FireAngle: 170
+  - m_FireBullet: {fileID: 1253955119864590184, guid: efa5d2cb1cf94ed468635a175b66350a, type: 3}
+    m_FirePoint: {x: 2.28, y: -1.48}
+    m_FireAngle: 190
+  m_FireRecall: 1.5
+  m_OnFiring:
+    m_PersistentCalls:
+      m_Calls: []
+  launcherLock: 0
+  m_BurstCount: 5
+  m_FireDelay: 0.2
+--- !u!1 &3109353463484180282
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1920310372465331268}
+  - component: {fileID: 1718100481636822462}
+  m_Layer: 0
+  m_Name: Launcher_BossAttackC_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1920310372465331268
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3109353463484180282}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.551, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6653140102448002040}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1718100481636822462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3109353463484180282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 692d590141e51794da87971bcda58e99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LauncherBelong: Enemy
+  m_BaseFireDirection: {x: -1, y: 0, z: 0}
+  m_FireSpots:
+  - m_FireBullet: {fileID: 5383064634642226716, guid: 23e8803db5b19ae4aaa3d9b763698a82, type: 3}
+    m_FirePoint: {x: 2.28, y: 1.48}
+    m_FireAngle: 0
+  - m_FireBullet: {fileID: 5383064634642226716, guid: 23e8803db5b19ae4aaa3d9b763698a82, type: 3}
+    m_FirePoint: {x: 2.28, y: 1.48}
+    m_FireAngle: 22.5
+  - m_FireBullet: {fileID: 5383064634642226716, guid: 23e8803db5b19ae4aaa3d9b763698a82, type: 3}
+    m_FirePoint: {x: 2.28, y: 1.48}
+    m_FireAngle: -22.5
+  - m_FireBullet: {fileID: 5383064634642226716, guid: 23e8803db5b19ae4aaa3d9b763698a82, type: 3}
+    m_FirePoint: {x: 2.28, y: 1.48}
+    m_FireAngle: -11.25
+  - m_FireBullet: {fileID: 5383064634642226716, guid: 23e8803db5b19ae4aaa3d9b763698a82, type: 3}
+    m_FirePoint: {x: 2.28, y: 1.48}
+    m_FireAngle: 11.25
+  - m_FireBullet: {fileID: 5383064634642226716, guid: 23e8803db5b19ae4aaa3d9b763698a82, type: 3}
+    m_FirePoint: {x: 2.28, y: -1.48}
+    m_FireAngle: 0
+  - m_FireBullet: {fileID: 5383064634642226716, guid: 23e8803db5b19ae4aaa3d9b763698a82, type: 3}
+    m_FirePoint: {x: 2.28, y: -1.48}
+    m_FireAngle: 22.5
+  - m_FireBullet: {fileID: 5383064634642226716, guid: 23e8803db5b19ae4aaa3d9b763698a82, type: 3}
+    m_FirePoint: {x: 2.28, y: -1.48}
+    m_FireAngle: -22.5
+  - m_FireBullet: {fileID: 5383064634642226716, guid: 23e8803db5b19ae4aaa3d9b763698a82, type: 3}
+    m_FirePoint: {x: 2.28, y: -1.48}
+    m_FireAngle: -11.25
+  - m_FireBullet: {fileID: 5383064634642226716, guid: 23e8803db5b19ae4aaa3d9b763698a82, type: 3}
+    m_FirePoint: {x: 2.28, y: -1.48}
+    m_FireAngle: 11.25
+  m_FireRecall: 0.8
+  m_OnFiring:
+    m_PersistentCalls:
+      m_Calls: []
+  launcherLock: 0
+--- !u!1 &4241200847168782593
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3583069594377339151}
+  - component: {fileID: 6582589852383575677}
+  m_Layer: 0
+  m_Name: Launcher_BossAttackC_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3583069594377339151
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4241200847168782593}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.551, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6653140102448002040}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6582589852383575677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4241200847168782593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f27c0d402c65c240bafc202420a1f56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LauncherBelong: Enemy
+  m_BaseFireDirection: {x: -1, y: 0, z: 0}
+  m_FireSpots:
+  - m_FireBullet: {fileID: 1092086359021639080, guid: 7095ebbffd1f8924b99a6c06654cfee5, type: 3}
+    m_FirePoint: {x: -1, y: 0}
+    m_FireAngle: 0
+  - m_FireBullet: {fileID: 1092086359021639080, guid: 7095ebbffd1f8924b99a6c06654cfee5, type: 3}
+    m_FirePoint: {x: -0.5, y: 0.1}
+    m_FireAngle: 0
+  - m_FireBullet: {fileID: 1092086359021639080, guid: 7095ebbffd1f8924b99a6c06654cfee5, type: 3}
+    m_FirePoint: {x: -0.5, y: -0.1}
+    m_FireAngle: 0
+  - m_FireBullet: {fileID: 1092086359021639080, guid: 7095ebbffd1f8924b99a6c06654cfee5, type: 3}
+    m_FirePoint: {x: 0, y: 0.2}
+    m_FireAngle: 0
+  - m_FireBullet: {fileID: 1092086359021639080, guid: 7095ebbffd1f8924b99a6c06654cfee5, type: 3}
+    m_FirePoint: {x: 0, y: -0.2}
+    m_FireAngle: 0
+  m_FireRecall: 0.5
+  m_OnFiring:
+    m_PersistentCalls:
+      m_Calls: []
+  launcherLock: 0
+  m_RotatePart: {fileID: 3583069594377339151}
+  m_AimRadius: 200
+  m_AimMask:
+    serializedVersion: 2
+    m_Bits: 512
+--- !u!1 &6653140102448002047
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6653140102448002040}
+  - component: {fileID: 6653140102448002041}
+  - component: {fileID: 6653140102448002023}
+  - component: {fileID: 6653140102448002042}
+  - component: {fileID: 3838717930837499710}
+  - component: {fileID: 7765828043526742966}
+  m_Layer: 8
+  m_Name: Boss_00
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6653140102448002040
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6653140102448002047}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 12.24, y: 2.97, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 6653140102603567616}
+  - {fileID: 8612278569586653442}
+  - {fileID: 1920310372465331268}
+  - {fileID: 3583069594377339151}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &6653140102448002041
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6653140102448002047}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 10
+  m_Sprite: {fileID: 1937023809, guid: 7acbc484482664b44be8a38c266d5849, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.32, y: 0.32}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!50 &6653140102448002023
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6653140102448002047}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!58 &6653140102448002042
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6653140102448002047}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.19, y: -0.015143275}
+  serializedVersion: 2
+  m_Radius: 0.9787302
+--- !u!114 &3838717930837499710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6653140102448002047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf002034ef14e034697727d9c0f8efc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MoveTarget: {fileID: 6653140102448002040}
+  m_HitBox: {fileID: 6653140102448002042}
+  m_MaxHP: 1500
+  m_HP: 0
+  m_MoveSpeed: 3
+  m_CloseDamage: 5
+  m_CloseDamageTarget:
+    serializedVersion: 2
+    m_Bits: 512
+  m_Launchers: []
+  m_DieEffect: {fileID: 8499436660347739041, guid: 6016711ab8a485343be066f25f40e063, type: 3}
+  m_OnGetDamaged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7765828043526742966}
+        m_TargetAssemblyTypeName: SkateGuy.Tool.SimpleFlash, Assembly-CSharp
+        m_MethodName: DoFlash
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _OnEnemyDie:
+    m_PersistentCalls:
+      m_Calls: []
+  m_MoveToPoint: {x: 7.04, y: 0}
+  m_AttackALaunchers:
+  - {fileID: 3898964639176665924}
+  m_AttackADelayTime: 0.8
+  m_AttackAFireTime: 5
+  m_AttackBLaunchers:
+  - {fileID: 6513121786431958059}
+  m_AttackBDelayTime: 2
+  m_AttackBFireTime: 10
+  m_AttackCLaunchers:
+  - {fileID: 1718100481636822462}
+  - {fileID: 6582589852383575677}
+  m_AttackCDelayTime: 2
+  m_AttackCFireTime: 10
+  m_PlayWhenStart: 0
+--- !u!114 &7765828043526742966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6653140102448002047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc9f83377be579540ad98fd4b0936cd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FlashMaterial: {fileID: 2100000, guid: 70b852bde8614354cb80ce5cf82ff357, type: 2}
+  m_TargetRenders:
+  - {fileID: 6653140102448002041}
+  m_FlashTime: 0.05
+--- !u!1 &6653140102603567622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6653140102603567616}
+  - component: {fileID: 3898964639176665924}
+  m_Layer: 0
+  m_Name: Launcher_BossAttackA
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6653140102603567616
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6653140102603567622}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.551, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6653140102448002040}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3898964639176665924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6653140102603567622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 692d590141e51794da87971bcda58e99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LauncherBelong: Enemy
+  m_BaseFireDirection: {x: -1, y: 0, z: 0}
+  m_FireSpots:
+  - m_FireBullet: {fileID: 5383064634642226716, guid: 23e8803db5b19ae4aaa3d9b763698a82, type: 3}
+    m_FirePoint: {x: 2.28, y: 1.48}
+    m_FireAngle: 0
+  - m_FireBullet: {fileID: 5383064634642226716, guid: 23e8803db5b19ae4aaa3d9b763698a82, type: 3}
+    m_FirePoint: {x: 2.28, y: 1.48}
+    m_FireAngle: 22.5
+  - m_FireBullet: {fileID: 5383064634642226716, guid: 23e8803db5b19ae4aaa3d9b763698a82, type: 3}
+    m_FirePoint: {x: 2.28, y: 1.48}
+    m_FireAngle: -22.5
+  - m_FireBullet: {fileID: 5383064634642226716, guid: 23e8803db5b19ae4aaa3d9b763698a82, type: 3}
+    m_FirePoint: {x: 2.28, y: -1.48}
+    m_FireAngle: 0
+  - m_FireBullet: {fileID: 5383064634642226716, guid: 23e8803db5b19ae4aaa3d9b763698a82, type: 3}
+    m_FirePoint: {x: 2.28, y: -1.48}
+    m_FireAngle: 22.5
+  - m_FireBullet: {fileID: 5383064634642226716, guid: 23e8803db5b19ae4aaa3d9b763698a82, type: 3}
+    m_FirePoint: {x: 2.28, y: -1.48}
+    m_FireAngle: -22.5
+  - m_FireBullet: {fileID: 5383064634642226716, guid: 23e8803db5b19ae4aaa3d9b763698a82, type: 3}
+    m_FirePoint: {x: 0, y: 0}
+    m_FireAngle: 5
+  - m_FireBullet: {fileID: 5383064634642226716, guid: 23e8803db5b19ae4aaa3d9b763698a82, type: 3}
+    m_FirePoint: {x: 0, y: 0}
+    m_FireAngle: 0
+  - m_FireBullet: {fileID: 5383064634642226716, guid: 23e8803db5b19ae4aaa3d9b763698a82, type: 3}
+    m_FirePoint: {x: 0, y: 0}
+    m_FireAngle: -5
+  m_FireRecall: 0.5
+  m_OnFiring:
+    m_PersistentCalls:
+      m_Calls: []
+  launcherLock: 0

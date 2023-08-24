@@ -4,7 +4,7 @@ namespace GrazerCore.GameElements.States
     {
         private BasicState currentState = null;
 
-        public void SetState(BasicState newState)
+        public virtual void SetState(BasicState newState)
         {
             if (currentState != null)
             {
@@ -18,7 +18,7 @@ namespace GrazerCore.GameElements.States
             }
         }
 
-        public void Track()
+        public virtual void Track()
         {
             if (currentState != null)
             {

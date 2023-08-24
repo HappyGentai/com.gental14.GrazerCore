@@ -44,6 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89d8f18309735964db8fc758e6a8a474, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SummonWhenStart: 0
   m_MemberDatas:
   - m_EnemyPrefab: {fileID: 2443165750001921628, guid: 3829b277367b512449dbce03eae051d9, type: 3}
     m_SetPosition: {x: 10.66, y: 2.4}
@@ -53,7 +54,7 @@ MonoBehaviour:
     m_SetPosition: {x: 10.66, y: 1.2}
     m_DelaySpawnTime: 0.8
     m_LogicData: 
-  - m_EnemyPrefab: {fileID: 2111663240086232812, guid: 57efd95b47344ad4c93b383be696888d, type: 3}
+  - m_EnemyPrefab: {fileID: 2443165750001921628, guid: 3829b277367b512449dbce03eae051d9, type: 3}
     m_SetPosition: {x: 10.66, y: 0}
     m_DelaySpawnTime: 0.8
     m_LogicData: 
@@ -81,4 +82,3 @@ MonoBehaviour:
     m_SetPosition: {x: 10.66, y: 2.4}
     m_DelaySpawnTime: 0.8
     m_LogicData: 
-  m_SummonWhenStart: 0

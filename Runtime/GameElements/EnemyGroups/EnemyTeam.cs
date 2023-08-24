@@ -10,6 +10,8 @@ namespace GrazerCore.GameElements.EnemyGroup
     public class EnemyTeam : MonoBehaviour
     {
         [SerializeField]
+        private bool m_SummonWhenStart = false;
+        [SerializeField]
         private EnemyTeamMemberData[] m_MemberDatas = null;
         public EnemyTeamMemberData[] MemberDatas
         {
@@ -19,8 +21,6 @@ namespace GrazerCore.GameElements.EnemyGroup
                 m_MemberDatas = value;
             }
         }
-        [SerializeField]
-        private bool m_SummonWhenStart = false;
         private int memberLiveCount = 0;
         public int MemberLiveCount
         {

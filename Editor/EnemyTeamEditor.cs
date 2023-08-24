@@ -74,7 +74,7 @@ namespace GrazerCore.Editor
                 EditorGUILayout.EndHorizontal();
                 GUILayout.Label("Next team");
                 nextTeam = (EnemyTeam)EditorGUILayout.ObjectField(nextTeam, typeof(EnemyTeam), true);
-                waitTime = EditorGUILayout.FloatField("DelayTime",waitTime);
+                waitTime = EditorGUILayout.FloatField("DelayTime", waitTime);
             }
         }
 
@@ -106,7 +106,7 @@ namespace GrazerCore.Editor
                 for (int index = 0; index < childCount; ++index)
                 {
                     var child = enemyTeam.transform.GetChild(index);
-                    
+
                     if (PrefabUtility.IsPartOfAnyPrefab(child))
                     {
                         var enemy = child.GetComponent<Enemy>();
@@ -166,7 +166,7 @@ namespace GrazerCore.Editor
                 summonEnemys.Add(enemy);
             });
             nextTeamCallRoutine = enemyTeam.StartCoroutine(DelayCall());
-            Debug.Log("Ready call next team "+Time.time);
+            Debug.Log("Ready call next team " + Time.time);
         }
 
         private System.Collections.IEnumerator DelayCall()
@@ -217,7 +217,8 @@ namespace GrazerCore.Editor
             {
                 enemyTeam.StopCoroutine(teamSummonRoutine);
                 teamSummonRoutine = null;
-            } else
+            }
+            else
             {
                 return;
             }

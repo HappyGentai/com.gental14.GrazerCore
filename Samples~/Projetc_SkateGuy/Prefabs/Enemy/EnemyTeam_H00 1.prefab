@@ -44,6 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89d8f18309735964db8fc758e6a8a474, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ss: []
   m_MemberDatas:
   - m_EnemyPrefab: {fileID: 6884478154795479454, guid: ad7272a76fd902b43b54664cbde9fdca, type: 3}
     m_SetPosition: {x: 12.24, y: -2.06}

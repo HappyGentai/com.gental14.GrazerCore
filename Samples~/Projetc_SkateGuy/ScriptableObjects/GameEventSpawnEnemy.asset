@@ -13,25 +13,25 @@ MonoBehaviour:
   m_Name: GameEventSpawnEnemy
   m_EditorClassIdentifier: 
   m_EnemyTeamDatas:
-  - m_EnemyTeam: {fileID: 8150864726307051979, guid: 6c6a6c0ae70fcc4409348f794d402743, type: 3}
+  - m_EnemyTeam: {fileID: 8150864726307051979, guid: 3ec39a19d36f6de43ba15ee9f338c061, type: 3}
     m_WaveWaitTime: 0
-  - m_EnemyTeam: {fileID: 4459933120320819002, guid: 92432da0be8494c4b90596a077ddf928, type: 3}
+  - m_EnemyTeam: {fileID: 4459933120320819002, guid: c0e8e447b0c69ab47b1495ec9a1cb03f, type: 3}
     m_WaveWaitTime: 8
-  - m_EnemyTeam: {fileID: 7241027831082023809, guid: a0c7f30f67bc26d40b141ca9f9dd028d, type: 3}
+  - m_EnemyTeam: {fileID: 7241027831082023809, guid: 94ff3d2d4244ea7449feb476458fe108, type: 3}
     m_WaveWaitTime: 2
-  - m_EnemyTeam: {fileID: 8112352868063410149, guid: f5eb27f3a11c7fb4cbd90b79ba2b1b19, type: 3}
+  - m_EnemyTeam: {fileID: 8112352868063410149, guid: 61a0fc28261249a40a5a3b2f6965059a, type: 3}
     m_WaveWaitTime: 5
-  - m_EnemyTeam: {fileID: 8151807398199164146, guid: cea44904987fba64099cd5c4f893ed03, type: 3}
+  - m_EnemyTeam: {fileID: 8151807398199164146, guid: e68397ca6344b184c9b241d00c91a7be, type: 3}
     m_WaveWaitTime: 6
-  - m_EnemyTeam: {fileID: 5347186509532001253, guid: 9a6336437109dca4cbd7d12381da1983, type: 3}
+  - m_EnemyTeam: {fileID: 5347186509532001253, guid: 42a5e483d39094e41b82ef0c66ff0f1c, type: 3}
     m_WaveWaitTime: 3.5
-  - m_EnemyTeam: {fileID: 1991416149411529885, guid: b3197be1658a73b43bbd4c10652c3b18, type: 3}
+  - m_EnemyTeam: {fileID: 1991416149411529885, guid: d6b99cf85a548b14bb4356e019e91fe1, type: 3}
     m_WaveWaitTime: 5
-  - m_EnemyTeam: {fileID: 8150864726307051979, guid: 6c6a6c0ae70fcc4409348f794d402743, type: 3}
+  - m_EnemyTeam: {fileID: 8150864726307051979, guid: 3ec39a19d36f6de43ba15ee9f338c061, type: 3}
     m_WaveWaitTime: 3
-  - m_EnemyTeam: {fileID: 4459933120320819002, guid: 92432da0be8494c4b90596a077ddf928, type: 3}
+  - m_EnemyTeam: {fileID: 4459933120320819002, guid: c0e8e447b0c69ab47b1495ec9a1cb03f, type: 3}
     m_WaveWaitTime: 8
-  - m_EnemyTeam: {fileID: 9018029639229784904, guid: 52c58997f8087b248a1000f973f5d0f8, type: 3}
+  - m_EnemyTeam: {fileID: 9018029639229784904, guid: b39d052180aef9b429f31be9e7ebe04a, type: 3}
     m_WaveWaitTime: 10
-  - m_EnemyTeam: {fileID: 6746451834157038922, guid: db9f0bcca8d00f24996c46e7499876bd, type: 3}
+  - m_EnemyTeam: {fileID: 6746451834157038922, guid: 66494c96366238c4e9075344d61000f0, type: 3}
     m_WaveWaitTime: 10000

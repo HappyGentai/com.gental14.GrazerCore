@@ -32,6 +32,7 @@ namespace GrazerCore.GameElements.EnemyGroup
 
         public EnemyTeamMemberData(Enemy enemyPrefab, Vector2 setPos, float delayTime, string logicData)
         {
+            Debug.Log(enemyPrefab);
             m_EnemyPrefab = enemyPrefab;
             m_SetPosition = setPos;
             m_DelaySpawnTime = delayTime;

@@ -2,6 +2,7 @@ using UnityEngine;
 using GrazerCore.GameElements;
 using GrazerCore.Interfaces;
 
+#if UNITY_EDITOR
 namespace GrazerCore.Editor
 {
     public class EnemySpawnHelper : MonoBehaviour
@@ -48,3 +49,4 @@ namespace GrazerCore.Editor
         }
     }
 }
+#endif

@@ -3,7 +3,10 @@
     "rootNamespace": "GrazerCore.Editor",
     "references": [
         "GUID:84d3608349c951f45972859da117398b",
-        "GUID:9ff0bdc75a25f524cb4a5ac8b76193af"
+        "GUID:9ff0bdc75a25f524cb4a5ac8b76193af",
+        "GUID:343deaaf83e0cee4ca978e7df0b80d21",
+        "GUID:0acc523941302664db1f4e527237feb3",
+        "GUID:7c04f0dfa9243c04681a55d90d3ff3fc"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

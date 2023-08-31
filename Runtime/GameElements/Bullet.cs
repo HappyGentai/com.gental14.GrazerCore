@@ -76,6 +76,10 @@ namespace GrazerCore.GameElements
 
         protected virtual void BulletDead()
         {
+            if (!this.gameObject.activeInHierarchy)
+            {
+                return;
+            }
             if (eventWhenBulletDead != null)
             {
                 eventWhenBulletDead.Invoke();

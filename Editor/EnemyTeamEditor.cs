@@ -6,6 +6,7 @@ using GrazerCore.GameElements.EnemyGroup;
 using UnityEditor;
 using GrazerCore.Interfaces;
 
+#if UNITY_EDITOR
 namespace GrazerCore.Editor
 {
     [CustomEditor(typeof(EnemyTeam))]
@@ -275,3 +276,4 @@ namespace GrazerCore.Editor
         #endregion
     }
 }
+#endif

@@ -1,6 +1,6 @@
 {
   "name": "com.gental14.grazercore",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "displayName": "GrazerCore",
   "description": "A package include basic shump game system with my custom.",
   "unity": "2021.3",

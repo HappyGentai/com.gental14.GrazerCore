@@ -1,3 +1,7 @@
+# 2023/09/13
+Version 0.3.1 update.
+1. Fix EnemyTeam factory error logic.
+
 # 2023/08/31
 Version 0.3.0 update.
 1. Update bullet class to avoid bulletDead event called multi time.

@@ -7,19 +7,19 @@ namespace GrazerCore.Factories
 {
     public class EnemyTeamPool
     {
-        private EnemyTeamData m_CoreEnemyTeamData = null;
-        public EnemyTeamData CoreEnemyTeamData
+        private EnemyTeam m_CoreEnemyTeam = null;
+        public EnemyTeam CoreEnemyTeam
         {
-            get { return m_CoreEnemyTeamData; }
+            get { return m_CoreEnemyTeam; }
         }
 
         private ObjectPool<EnemyTeam> enemyTeamPool = null;
 
         private List<EnemyTeam> aliveObject = new List<EnemyTeam>();
 
-        public EnemyTeamPool(EnemyTeamData _CoreEnemyTeamData)
+        public EnemyTeamPool(EnemyTeam _CoreEnemyTeam)
         {
-            m_CoreEnemyTeamData = _CoreEnemyTeamData;
+            m_CoreEnemyTeam = _CoreEnemyTeam;
             enemyTeamPool = new ObjectPool<EnemyTeam>(CreatePoolItem, OnTakeFormPool,
                     OnReturnToPool, OnDestroyPoolObject, false);
         }
@@ -48,7 +48,7 @@ namespace GrazerCore.Factories
         #region About pool event
         EnemyTeam CreatePoolItem()
         {
-            var newEnemyTeam = GameObject.Instantiate<EnemyTeam>(m_CoreEnemyTeamData.EnemyTeam);
+            var newEnemyTeam = GameObject.Instantiate<EnemyTeam>(m_CoreEnemyTeam);
             newEnemyTeam.OnSummonDone.AddListener(() => {
                 enemyTeamPool.Release(newEnemyTeam);
             });

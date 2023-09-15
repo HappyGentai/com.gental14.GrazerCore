@@ -241,7 +241,7 @@ namespace GrazerCore.GameElements
 
         public virtual void GetHit(float dmg)
         {
-            if (Invincible)
+            if (Invincible || HP <= 0)
             {
                 return;
             }

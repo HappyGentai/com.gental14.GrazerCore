@@ -77,7 +77,7 @@ namespace SkateHero.GameFlow.Events
 
         IEnumerator WaveCalling(EnemyTeamData teamData)
         {
-            var team = EnemyTeamFactory.GetEnemyTeam(teamData);
+            var team = EnemyTeamFactory.GetEnemyTeam(teamData.EnemyTeam);
             team.OnAllMemberGone.AddListener(ClearCheck);
             lastEnemyTeam = currentEnemyTeam;
             currentEnemyTeam = team;

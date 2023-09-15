@@ -1,3 +1,8 @@
+# 2023/09/15
+Version 0.3.2 update.
+1. Fix Sample project error.
+2. Update Enemy and player class to avoid GetHit event called multi time when HP already to  zero.
+
 # 2023/09/13
 Version 0.3.1 update.
 1. Fix EnemyTeam factory error logic.
